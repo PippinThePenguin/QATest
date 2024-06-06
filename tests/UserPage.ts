@@ -59,7 +59,7 @@ export class UsersPage {
     await this.page.getByRole('button', {name: 'Submit'}).click();
   }
 
-  async editCompany(name: string){
+  async editCompany(name: string){    
     await this.page.getByText(name).first().click();
     await this.page.getByRole('button', {name: 'Edit'}).click();
   }
