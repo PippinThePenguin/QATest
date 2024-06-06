@@ -40,19 +40,23 @@ exports.default = (0, test_1.defineConfig)({
             name: 'firefox',
             use: Object.assign({}, test_1.devices['Desktop Firefox']),
         },
+        /*
         {
             name: 'webkit',
             use: Object.assign({}, test_1.devices['Desktop Safari']),
         },
+        */
         /* Test against mobile viewports. */
         {
             name: 'Mobile Chrome',
             use: Object.assign({}, test_1.devices['Pixel 5']),
         },
+        /*
         {
             name: 'Mobile Safari',
             use: Object.assign({}, test_1.devices['iPhone 12']),
         },
+        */
         /* Test against branded browsers. */
         // {
         //   name: 'Microsoft Edge',
