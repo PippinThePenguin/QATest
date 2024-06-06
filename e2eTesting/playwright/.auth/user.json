@@ -1,0 +1,30 @@
+{
+  "cookies": [],
+  "origins": [
+    {
+      "origin": "https://a_whc95tk4e1e.v7.demo.nocobase.com",
+      "localStorage": [
+        {
+          "name": "NOCOBASE_ROLE",
+          "value": "root"
+        },
+        {
+          "name": "NOCOBASE_AUTH",
+          "value": "basic"
+        },
+        {
+          "name": "NOCOBASE_TOKEN",
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTcxNzYzOTg4NSwiZXhwIjoxNzE4MjQ0Njg1fQ.zdWSSGU71w-l4o6b5xk2ur4O2TWEIsvzG8bn8oentt0"
+        },
+        {
+          "name": "NOCOBASE_LOCALE",
+          "value": "en-US"
+        },
+        {
+          "name": "NOCOBASE_THEME",
+          "value": "{\"id\":1,\"createdAt\":\"2024-02-29T08:34:18.302Z\",\"updatedAt\":\"2024-02-29T08:34:18.302Z\",\"config\":{\"name\":\"Default\"},\"optional\":true,\"isBuiltIn\":true,\"uid\":\"default\",\"default\":true}"
+        }
+      ]
+    }
+  ]
+}
