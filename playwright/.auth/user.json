@@ -2,7 +2,7 @@
   "cookies": [],
   "origins": [
     {
-      "origin": "https://a_whc95tk4e1e.v7.demo.nocobase.com",
+      "origin": "https://a_1dyvn11kcup.v7.demo.nocobase.com",
       "localStorage": [
         {
           "name": "NOCOBASE_ROLE",
@@ -14,7 +14,7 @@
         },
         {
           "name": "NOCOBASE_TOKEN",
-          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTcxNzY0NjI2MCwiZXhwIjoxNzE4MjUxMDYwfQ.Y_rtv0kTx56jAFNe4YBcuwgKjw9b8fdj-A1Y9LQs164"
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTcxNzY3MzEzOSwiZXhwIjoxNzE4Mjc3OTM5fQ.jJ2YKUdGQ_Af-JCLu6lILywTzThpd3Nzajs5vdaAYFI"
         },
         {
           "name": "NOCOBASE_LOCALE",

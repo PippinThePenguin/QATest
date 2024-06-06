@@ -19,7 +19,14 @@ test.describe.serial('Adding and removing valid company', () => {
     workPage = new UsersPage(page);
     
     await workPage.gotoUsers();
-  });   
+  }); 
+  
+  test('No such company exist', async () => {
+    await workPage.setFilters(def.CompanyName);
+
+    await expect(page.getByLabel('block-item-Kanban.Card-company-kanban').first()).toBeHidden();
+
+  })
   
   test('Add new Company to list', async() => {
     await workPage.openAddForm();
@@ -49,7 +56,7 @@ test.describe.serial('Adding and removing valid company', () => {
   test('Check if company deleted', async () => {
     await workPage.setFilters(def.CompanyName);
       
-    expect(page.getByText(def.CompanyName)).toBeHidden();
+    await expect(page.getByLabel('block-item-Kanban.Card-company-kanban').first()).toBeHidden();
   })
 
 
@@ -70,8 +77,15 @@ test.describe.serial('Editing valid company name', () =>{
     await workPage.selectIndustry();
     await workPage.submitCompany();
   });   
+
+  test('No company with edited name exist', async () => {
+    await workPage.setFilters(def.SecondCompanyName);
+
+    await expect(page.getByLabel('block-item-Kanban.Card-company-kanban').first()).toBeHidden();
+
+  })
   
-  test('Company exist', async () => {
+  test('Unedited named company exist', async () => {
     await workPage.setFilters(def.CompanyName);
 
     await expect(page.getByText(def.CompanyName).first()).toBeVisible();
@@ -89,7 +103,7 @@ test.describe.serial('Editing valid company name', () =>{
     await expect(page.getByRole('dialog')).toBeHidden();
   })
 
-  test('Edited company exist', async () => {
+  test('Company with edited name exist', async () => {
     await workPage.setFilters(def.SecondCompanyName);
 
     await expect(page.getByText(def.SecondCompanyName).first()).toBeVisible();

@@ -16,7 +16,7 @@ export class UsersPage {
   }
 
   async resetFilter(){
-    await this.page.getByRole('button', {name: 'Filter'}).click();
+    await this.page.getByRole('button', {name: 'ilter'}).click();
     await this.page.getByRole('button', {name: 'Reset'}).click(); 
   }
 
@@ -25,7 +25,7 @@ export class UsersPage {
   }
 
   async setFilters(name: string){
-    await this.page.getByRole('button', {name: 'Filter'}).click();
+    await this.page.getByRole('button', {name: 'ilter'}).click();
 
     await this.page.getByRole('textbox').fill(name)
     await this.page.getByRole('button', {name: 'Submit'}).click();
