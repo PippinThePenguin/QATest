@@ -1,9 +1,5 @@
 node_modules/
-e2eTesting/test-results/
-e2eTesting/playwright-report/
-e2eTesting/blob-report/
-e2eTesting/playwright/.cache/
-e2eTesting/test-results/
-e2eTesting/playwright-report/
-e2eTesting/blob-report/
-e2eTesting/playwright/.cache/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
