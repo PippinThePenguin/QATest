@@ -1,4 +1,4 @@
-# Test assignment for gamebeat
+# Test assignment for Gamebeat
 ## Е2Е тесты
 ### Установка и использование
 Проект работает на Typescript с использованием Playwright. Тесткейсы лежат в папке e2eCases внутри репозитория, в формате Excel таблицы и csv.
